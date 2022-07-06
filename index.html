@@ -23,12 +23,12 @@
   </head>
   <body>
     <header class="page-header">
-      <a class="logo" href="./index.html">items.ua</a>
+      <a class="logo link" href="./index.html">items.ua</a>
       <form class="search">
-        <input class="search__input" type="search" />
-        <button class="search__submit" type="submit">
-          <svg class="icon search__icon">
-            <use href=""></use>
+        <input class="form-field search__input" type="search" placeholder="Поиск" />
+        <button class="button search__submit" type="submit">
+          <svg class="icon search__icon" width="15" height="15">
+            <use href="./images/icons.svg#search"></use>
           </svg>
         </button>
       </form>
@@ -46,126 +46,130 @@
           <li class="nav-list__item">
             <a class="link nav-list__link" href="">Статьи</a>
           </li>
+          <li class="nav-list__item">
+            <button class="button login-button">
+              Войти
+              <svg class="icon login-button__icon" width="10" height="6">
+                <use href="./images/icons.svg#down-arrow"></use>
+              </svg>
+            </button>
+          </li>
         </ul>
-
-        <button class="button">
-          Войти
-          <svg class="icon">
-            <use href=""></use>
-          </svg>
-        </button>
       </nav>
     </header>
 
-    <div class="sidebar">
-      <div class="tree">
-        <h2 class="tree__title">Выберите категорию</h2>
-        <ul class="tree-list">
-          <li class="tree-list__item">
-            <a class="link tree-list__link" href="">Промышленная фурнитура</a>
-          </li>
-
-          <li class="tree-list__item">
-            <a class="link tree-list__link" href="">Шлифовка и полировка</a>
-          </li>
-
-          <li class="tree-list__item">
-            <a class="link tree-list__link" href="">Электричество и освещение</a>
-          </li>
-
-          <li class="tree-list__item">
-            <a class="link tree-list__link" href="">Производственный инструмент</a>
-          </li>
-
-          <li class="tree-list__item">
-            <a class="link tree-list__link" href="">Крепление и соединение</a>
-          </li>
-
-          <li class="tree-list__item">
-            <a class="link tree-list__link" href="">Фильтрование</a>
-          </li>
-
-          <li class="tree-list__item">
-            <a class="link tree-list__link" href="">Промышленная мебель</a>
-          </li>
-
-          <li class="tree-list__item">
-            <a class="link tree-list__link" href="">Ручной инструмент</a>
-          </li>
-
-          <li class="tree-list__item">
-            <a class="link tree-list__link" href="">Отопление и охлаждение</a>
-          </li>
-
-          <li class="tree-list__item">
-            <a class="link tree-list__link" href="">Смазка</a>
-          </li>
-
-          <li class="tree-list__item">
-            <a class="link tree-list__link" href="">Складская техника</a>
-          </li>
-
-          <li class="tree-list__item">
-            <a class="link tree-list__link" href="">Измерительный инструмент</a>
-          </li>
-
-          <li class="tree-list__item">
-            <a class="link tree-list__link" href="">Сантехника и уборка</a>
-          </li>
-
-          <li class="tree-list__item">
-            <a class="link tree-list__link" href="">Элементы трансмиссии</a>
-          </li>
-
-          <li class="tree-list__item">
-            <a class="link tree-list__link" href="">Давление и температура</a>
-          </li>
-
-          <li class="tree-list__item">
-            <a class="link tree-list__link" href="">Подъёмное оборудование</a>
-          </li>
-
-          <li class="tree-list__item">
-            <a class="link tree-list__link" href="">Промышленные материалы</a>
-          </li>
-
-          <li class="tree-list__item">
-            <a class="link tree-list__link" href="">Средства защиты</a>
-          </li>
-
-          <li class="tree-list__item">
-            <a class="link tree-list__link" href="">Промышленная фурнитура</a>
-          </li>
-
-          <li class="tree-list__item">
-            <a class="link tree-list__link" href="">Шлифовка и полировка</a>
-          </li>
-
-          <li class="tree-list__item">
-            <a class="link tree-list__link" href="">Электричество и освещение</a>
-          </li>
-
-          <li class="tree-list__item">
-            <a class="link tree-list__link" href="">Производственный инструмент</a>
-          </li>
-
-          <li class="tree-list__item">
-            <a class="link tree-list__link" href="">Крепление и соединение</a>
-          </li>
-
-          <li class="tree-list__item">
-            <a class="link tree-list__link" href="">Фильтрование</a>
-          </li>
-
-          <li class="tree-list__item">
-            <a class="link tree-list__link" href="">Промышленная мебель</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
     <main class="main">
-      <h1 class="main__title">Промышленные комплектующие</h1>
+      <div class="sidebar">
+        <div class="tree">
+          <h2 class="tree__title">Выберите категорию</h2>
+          <ul class="tree-list">
+            <li class="tree-list__item">
+              <a class="link tree-list__link" href="">Промышленная фурнитура</a>
+            </li>
+
+            <li class="tree-list__item">
+              <a class="link tree-list__link" href="">Шлифовка и полировка</a>
+            </li>
+
+            <li class="tree-list__item">
+              <a class="link tree-list__link" href="">Электричество и освещение</a>
+            </li>
+
+            <li class="tree-list__item">
+              <a class="link tree-list__link" href="">Производственный инструмент</a>
+            </li>
+
+            <li class="tree-list__item">
+              <a class="link tree-list__link tree-list__link--current" href=""
+                >Крепление и соединение</a
+              >
+            </li>
+
+            <li class="tree-list__item">
+              <a class="link tree-list__link" href="">Фильтрование</a>
+            </li>
+
+            <li class="tree-list__item">
+              <a class="link tree-list__link" href="">Промышленная мебель</a>
+            </li>
+
+            <li class="tree-list__item">
+              <a class="link tree-list__link" href="">Ручной инструмент</a>
+            </li>
+
+            <li class="tree-list__item">
+              <a class="link tree-list__link" href="">Отопление и охлаждение</a>
+            </li>
+
+            <li class="tree-list__item">
+              <a class="link tree-list__link" href="">Смазка</a>
+            </li>
+
+            <li class="tree-list__item">
+              <a class="link tree-list__link" href="">Складская техника</a>
+            </li>
+
+            <li class="tree-list__item">
+              <a class="link tree-list__link" href="">Измерительный инструмент</a>
+            </li>
+
+            <li class="tree-list__item">
+              <a class="link tree-list__link" href="">Сантехника и уборка</a>
+            </li>
+
+            <li class="tree-list__item">
+              <a class="link tree-list__link" href="">Элементы трансмиссии</a>
+            </li>
+
+            <li class="tree-list__item">
+              <a class="link tree-list__link" href="">Давление и температура</a>
+            </li>
+
+            <li class="tree-list__item">
+              <a class="link tree-list__link" href="">Подъёмное оборудование</a>
+            </li>
+
+            <li class="tree-list__item">
+              <a class="link tree-list__link" href="">Промышленные материалы</a>
+            </li>
+
+            <li class="tree-list__item">
+              <a class="link tree-list__link" href="">Средства защиты</a>
+            </li>
+
+            <li class="tree-list__item">
+              <a class="link tree-list__link" href="">Промышленная фурнитура</a>
+            </li>
+
+            <li class="tree-list__item">
+              <a class="link tree-list__link" href="">Шлифовка и полировка</a>
+            </li>
+
+            <li class="tree-list__item">
+              <a class="link tree-list__link" href="">Электричество и освещение</a>
+            </li>
+
+            <li class="tree-list__item">
+              <a class="link tree-list__link" href="">Производственный инструмент</a>
+            </li>
+
+            <li class="tree-list__item">
+              <a class="link tree-list__link" href="">Крепление и соединение</a>
+            </li>
+
+            <li class="tree-list__item">
+              <a class="link tree-list__link" href="">Фильтрование</a>
+            </li>
+
+            <li class="tree-list__item">
+              <a class="link tree-list__link" href="">Промышленная мебель</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <!-- <h1 class="main__title">Промышленные комплектующие</h1>
       <ul class="category-list">
         <li class="category-list__item">
           <section class="category">
@@ -221,11 +225,12 @@
             </div>
           </section>
         </li>
-      </ul>
+      </ul> -->
+      </div>
     </main>
 
     <footer class="page-footer">
-      <nav class="page-footer-nav">
+      <!-- <nav class="page-footer-nav">
         <ul class="page-footer-nav__list">
           <li class="footer-nav__item">
             <a class="link footer-nav__link" href="">Контакты</a>
@@ -247,7 +252,7 @@
       <p class="page-footer__agreement">
         Находясь на этом сайте вы соглашаетесь с Политикой конфиденциальности или Условиями
         использования
-      </p>
+      </p> -->
     </footer>
   </body>
 </html>

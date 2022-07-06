@@ -1,0 +1,49 @@
+.sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: $sidebar-width;
+
+    padding: 5px 21px 15px 15px;
+
+    border-right: 1px solid $primary-border-color;
+    // background-color: aquamarine;
+    background-color: $primary-bg-color;
+
+    overflow-y: scroll;
+}
+
+
+.tree {}
+
+.tree__title {
+    padding-bottom: 7px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: $secondary-text-color;
+
+    border-bottom: 1px solid $accent-color;
+}
+
+.tree-list {
+    margin-top: 13px;
+    font-size: 12px;
+    line-height: 1.167;
+}
+
+.tree-list__item {
+    @include set-item-margins (bottom, 8px);
+}
+
+
+
+.tree-list__link {
+
+    &--current {
+        font-weight: 500;
+        color: $accent-color;
+    }
+}

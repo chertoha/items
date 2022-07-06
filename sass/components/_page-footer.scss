@@ -1,0 +1,13 @@
+.page-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: $page-footer-height;
+
+    padding-left: 15px;
+    padding-right: 40px;
+
+    border-top: 1px solid $primary-border-color;
+    background-color: $secondary-bg-color;
+}

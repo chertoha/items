@@ -6,3 +6,14 @@ $primary-title-color: #333333;
 $primary-bg-color: #fff;
 $secondary-bg-color: #F4F4F4;
 $primary-border-color: #CCCCCC;
+
+
+//Components sizes
+$page-header-height: 60px;
+$page-footer-height: 30px;
+$sidebar-width: 216px;
+
+
+//Transition
+$default-transition-time: 250ms;
+$default-transition-func: cubic-bezier(0.4, 0, 0.2, 1);
