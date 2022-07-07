@@ -5,13 +5,19 @@
     height: 100%;
     width: $sidebar-width;
 
-    padding: 5px 21px 15px 15px;
-
     border-right: 1px solid $primary-border-color;
-    // background-color: aquamarine;
-    background-color: $primary-bg-color;
 
     overflow-y: scroll;
+
+    &--category-tree {
+        padding: 10px 20px 15px 15px;
+        background-color: $primary-bg-color;
+    }
+
+    &--filter {
+        padding: 10px 15px;
+        background-color: $secondary-bg-color;
+    }
 }
 
 
@@ -23,7 +29,7 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    color: $secondary-text-color;
+    color: $primary-title-color;
 
     border-bottom: 1px solid $accent-color;
 }
@@ -35,12 +41,13 @@
 }
 
 .tree-list__item {
-    @include set-item-margins (bottom, 8px);
+    @include set-item-margins (bottom, 12px);
 }
 
 
 
 .tree-list__link {
+    color: $secondary-text-color;
 
     &--current {
         font-weight: 500;

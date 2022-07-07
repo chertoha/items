@@ -26,14 +26,25 @@
 }
 
 .nav-list__item {
-    @include set-item-margins (right, 70px);
+    @include set-item-margins (right, 60px);
 }
 
 .nav-list__link {
+    display: block;
+
+    padding-top: 19px;
+    padding-bottom: 19px;
+
     color: $accent-color;
     font-size: 16px;
     line-height: 1.1875;
+
+    &:hover {
+        color: $hovered-accent-color;
+    }
 }
+
+
 
 .login-button {
     color: $accent-color;
@@ -42,6 +53,10 @@
 
     display: flex;
     align-items: center;
+
+    &:hover {
+        color: $hovered-accent-color;
+    }
 }
 
 .login-button__icon {

@@ -10,4 +10,38 @@
 
     border-top: 1px solid $primary-border-color;
     background-color: $secondary-bg-color;
+
+    display: flex;
+    align-items: center;
+}
+
+.page-footer-nav__list {
+    display: flex;
+    align-items: center;
+}
+
+.footer-nav__item {
+    display: flex;
+    align-items: center;
+
+    &::after {
+        margin-left: 15px;
+        content: '';
+        width: 1px;
+        height: 15px;
+        background-color: $primary-border-color;
+    }
+
+    @include set-item-margins (right, 12px);
+}
+
+
+
+.footer-nav__link {
+    display: block;
+    color: $secondary-text-color;
+}
+
+.page-footer__agreement {
+    margin-left: auto;
 }

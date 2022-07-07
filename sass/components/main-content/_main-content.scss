@@ -10,3 +10,13 @@
 
     overflow-y: scroll;
 }
+
+.main-content__title {
+    padding-top: 7px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    line-height: 1.167;
+    color: $secondary-text-color;
+
+    // border-bottom: 1px solid $accent-color;
+}

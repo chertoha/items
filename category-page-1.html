@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>items</title>
+    <title>category-page-1</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -47,7 +47,7 @@
             <a class="link nav-list__link" href="">Статьи</a>
           </li>
           <li class="nav-list__item">
-            <button class="button login-button" type="button">
+            <button class="button login-button">
               Войти
               <svg class="icon login-button__icon" width="10" height="6">
                 <use href="./images/icons.svg#down-arrow"></use>
@@ -59,110 +59,149 @@
     </header>
 
     <main class="main">
-      <div class="sidebar">
-        <div class="tree">
-          <h2 class="tree__title">Выберите категорию</h2>
-          <ul class="tree-list">
-            <li class="tree-list__item">
-              <a class="link tree-list__link" href="">Промышленная фурнитура</a>
+      <div class="sidebar sidebar--filter">
+        <div class="filter-catalog">
+          <h2 class="filter-catalog__title" hidden>Параметры фильтра</h2>
+          <a class="filter-catalog__clear-all link" href="">Сбросить всё</a>
+          <ul class="filter-catalog__list">
+            <li class="filter-catalog__item filter">
+              <h3 class="filter__attr">Заглавие</h3>
+              <ul class="value-list">
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
+
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
+
+                <li class="value-list__item"></li>
+              </ul>
             </li>
 
-            <li class="tree-list__item">
-              <a class="link tree-list__link" href="">Шлифовка и полировка</a>
+            <li class="filter-catalog__item filter">
+              <h3 class="filter__attr">Заглавие</h3>
+              <ul class="value-list">
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
+
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
+
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
+
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
+
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
+
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
+
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
+
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
+
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
+
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
+              </ul>
             </li>
 
-            <li class="tree-list__item">
-              <a class="link tree-list__link" href="">Электричество и освещение</a>
-            </li>
+            <li class="filter-catalog__item filter">
+              <h3 class="filter__attr">Заглавие</h3>
+              <ul class="value-list">
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
 
-            <li class="tree-list__item">
-              <a class="link tree-list__link" href="">Производственный инструмент</a>
-            </li>
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
 
-            <li class="tree-list__item">
-              <a class="link tree-list__link tree-list__link--current" href=""
-                >Крепление и соединение</a
-              >
-            </li>
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
 
-            <li class="tree-list__item">
-              <a class="link tree-list__link" href="">Фильтрование</a>
-            </li>
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
 
-            <li class="tree-list__item">
-              <a class="link tree-list__link" href="">Промышленная мебель</a>
-            </li>
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
 
-            <li class="tree-list__item">
-              <a class="link tree-list__link" href="">Ручной инструмент</a>
-            </li>
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
 
-            <li class="tree-list__item">
-              <a class="link tree-list__link" href="">Отопление и охлаждение</a>
-            </li>
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
 
-            <li class="tree-list__item">
-              <a class="link tree-list__link" href="">Смазка</a>
-            </li>
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
 
-            <li class="tree-list__item">
-              <a class="link tree-list__link" href="">Складская техника</a>
-            </li>
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
 
-            <li class="tree-list__item">
-              <a class="link tree-list__link" href="">Измерительный инструмент</a>
-            </li>
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
 
-            <li class="tree-list__item">
-              <a class="link tree-list__link" href="">Сантехника и уборка</a>
-            </li>
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
 
-            <li class="tree-list__item">
-              <a class="link tree-list__link" href="">Элементы трансмиссии</a>
-            </li>
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
 
-            <li class="tree-list__item">
-              <a class="link tree-list__link" href="">Давление и температура</a>
-            </li>
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
 
-            <li class="tree-list__item">
-              <a class="link tree-list__link" href="">Подъёмное оборудование</a>
-            </li>
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
 
-            <li class="tree-list__item">
-              <a class="link tree-list__link" href="">Промышленные материалы</a>
-            </li>
-
-            <li class="tree-list__item">
-              <a class="link tree-list__link" href="">Средства защиты</a>
-            </li>
-
-            <li class="tree-list__item">
-              <a class="link tree-list__link" href="">Промышленная фурнитура</a>
-            </li>
-
-            <li class="tree-list__item">
-              <a class="link tree-list__link" href="">Шлифовка и полировка</a>
-            </li>
-
-            <li class="tree-list__item">
-              <a class="link tree-list__link" href="">Электричество и освещение</a>
-            </li>
-
-            <li class="tree-list__item">
-              <a class="link tree-list__link" href="">Производственный инструмент</a>
-            </li>
-
-            <li class="tree-list__item">
-              <a class="link tree-list__link" href="">Крепление и соединение</a>
-            </li>
-
-            <li class="tree-list__item">
-              <a class="link tree-list__link" href="">Фильтрование</a>
-            </li>
-
-            <li class="tree-list__item">
-              <a class="link tree-list__link" href="">Промышленная мебель</a>
+                <li class="value-list__item">
+                  <button class="button filter__value" type="button">Вариант</button>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
