@@ -27,3 +27,10 @@
 
     @include set-item-margins (bottom, 4px);
 }
+
+.filter__select-list {
+    margin-top: 5px;
+    padding: 10px 16px;
+    border: none;
+    width: 100%
+}

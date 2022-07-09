@@ -1,0 +1,32 @@
+.category-simple {
+    padding-bottom: 30px;
+}
+
+.category-simple__title {
+    margin-bottom: 15px;
+    padding: 7px 15px;
+
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.2;
+    letter-spacing: 0.06em;
+    color: $primary-title-color;
+
+    background-color: $secondary-bg-color;
+}
+
+.category-simple__list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 15px;
+}
+
+.category-simple__item {
+    // @include set-item-margins (right, 20px);
+}
+
+.category-simple__category-list {
+    margin-top: 5px;
+
+}

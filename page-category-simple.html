@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>page-category-simple</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <a class="logo link" href="./index.html">items.ua</a>
+      <form class="search page-header__search">
+        <input
+          class="form-field search__input search__input--page-header"
+          type="search"
+          placeholder="Поиск"
+        />
+        <button class="button search__submit search__submit--append" type="submit">
+          <svg class="icon search__icon" width="15" height="15">
+            <use href="./images/icons.svg#search"></use>
+          </svg>
+        </button>
+      </form>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-list__item">
+            <a class="link nav-list__link" href="">Контакты</a>
+          </li>
+          <li class="nav-list__item">
+            <a class="link nav-list__link" href="">Заказ</a>
+          </li>
+          <li class="nav-list__item">
+            <a class="link nav-list__link" href="">Партнёрам</a>
+          </li>
+          <li class="nav-list__item">
+            <a class="link nav-list__link" href="">Статьи</a>
+          </li>
+          <li class="nav-list__item">
+            <button class="button login-button">
+              Войти
+              <svg class="icon login-button__icon" width="10" height="6">
+                <use href="./images/icons.svg#down-arrow"></use>
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div class="sidebar sidebar--filter">
+        <div class="filter-catalog">
+          <h2 class="filter-catalog__title" hidden>Параметры фильтра</h2>
+          <a class="filter-catalog__clear-all link" href="">Сбросить всё</a>
+          <ul class="filter-catalog__list">
+            <!-- Filter 1 column values -->
+            <li class="filter-catalog__item filter">
+              <h3 class="filter__attr">Заглавие</h3>
+              <ul class="value-list">
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item"></li>
+              </ul>
+            </li>
+
+            <!-- Filter 2 column values -->
+            <li class="filter-catalog__item filter">
+              <h3 class="filter__attr">Заглавие</h3>
+              <ul class="value-list">
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+              </ul>
+            </li>
+
+            <!-- Filter 3 column values -->
+            <li class="filter-catalog__item filter">
+              <h3 class="filter__attr">Заглавие</h3>
+              <ul class="value-list">
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+              </ul>
+            </li>
+
+            <!-- Filter Search + Select values -->
+            <li class="filter-catalog__item filter">
+              <h3 class="filter__attr">Заглавие</h3>
+
+              <div class="search">
+                <input class="form-field search__input search__input--filter" type="search" />
+                <button class="button search__submit search__submit--prepend" type="submit">
+                  <svg class="icon search__icon" width="11" height="11">
+                    <use href="./images/icons.svg#search"></use>
+                  </svg>
+                </button>
+              </div>
+
+              <select class="filter__select-list" name="search-value-list" size="8">
+                <option class="value-list__item filter__value" value="">Вариант</option>
+                <option class="value-list__item filter__value" value="">Вариант</option>
+                <option class="value-list__item filter__value" value="">Вариант</option>
+                <option class="value-list__item filter__value" value="">Вариант</option>
+                <option class="value-list__item filter__value" value="">Вариант</option>
+                <option class="value-list__item filter__value" value="">Вариант</option>
+                <option class="value-list__item filter__value" value="">Вариант</option>
+                <option class="value-list__item filter__value" value="">Вариант</option>
+                <option class="value-list__item filter__value" value="">Вариант</option>
+                <option class="value-list__item filter__value" value="">Вариант</option>
+                <option class="value-list__item filter__value" value="">Вариант</option>
+                <option class="value-list__item filter__value" value="">Вариант</option>
+              </select>
+            </li>
+
+            <!-- Filter Image-row + Search + Select values -->
+            <li class="filter-catalog__item filter">
+              <h3 class="filter__attr">Заглавие</h3>
+
+              <ul class="image-card-set image-card-set--row">
+                <li class="image-card-set__item image-card">
+                  <div class="image-card__thumb image-card__thumb--short">
+                    <img
+                      class="image-card__source"
+                      src="./images/filter/image_1.png"
+                      alt="Filter image"
+                    />
+                  </div>
+                </li>
+                <li class="image-card-set__item image-card">
+                  <div class="image-card__thumb">
+                    <img
+                      class="image-card__source"
+                      src="./images/filter/image_1.png"
+                      alt="Filter image"
+                    />
+                  </div>
+                </li>
+                <li class="image-card-set__item image-card">
+                  <div class="image-card__thumb">
+                    <img
+                      class="image-card__source"
+                      src="./images/filter/image_1.png"
+                      alt="Filter image"
+                    />
+                  </div>
+                </li>
+                <li class="image-card-set__item image-card">
+                  <div class="image-card__thumb">
+                    <img
+                      class="image-card__source"
+                      src="./images/filter/image_1.png"
+                      alt="Filter image"
+                    />
+                  </div>
+                </li>
+              </ul>
+
+              <div class="search">
+                <input class="form-field search__input search__input--filter" type="search" />
+                <button class="button search__submit search__submit--prepend" type="submit">
+                  <svg class="icon search__icon" width="11" height="11">
+                    <use href="./images/icons.svg#search"></use>
+                  </svg>
+                </button>
+              </div>
+              <select class="filter__select-list" name="search-value-list" size="8">
+                <option class="value-list__item filter__value" value="">Вариант</option>
+                <option class="value-list__item filter__value" value="">Вариант</option>
+                <option class="value-list__item filter__value" value="">Вариант</option>
+                <option class="value-list__item filter__value" value="">Вариант</option>
+                <option class="value-list__item filter__value" value="">Вариант</option>
+                <option class="value-list__item filter__value" value="">Вариант</option>
+                <option class="value-list__item filter__value" value="">Вариант</option>
+                <option class="value-list__item filter__value" value="">Вариант</option>
+                <option class="value-list__item filter__value" value="">Вариант</option>
+                <option class="value-list__item filter__value" value="">Вариант</option>
+                <option class="value-list__item filter__value" value="">Вариант</option>
+                <option class="value-list__item filter__value" value="">Вариант</option>
+              </select>
+            </li>
+
+            <!-- Filter Image-column -->
+            <li class="filter-catalog__item filter">
+              <h3 class="filter__attr">Заглавие</h3>
+
+              <ul class="image-card-set image-card-set--column">
+                <li class="image-card-set__item image-card image-card--horizontal">
+                  <div class="image-card__thumb image-card__thumb--wide">
+                    <img
+                      class="image-card__source"
+                      src="./images/filter/image_2.png"
+                      alt="Filter image"
+                    />
+                  </div>
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="image-card-set__item image-card image-card--horizontal">
+                  <div class="image-card__thumb image-card__thumb--wide">
+                    <img
+                      class="image-card__source"
+                      src="./images/filter/image_2.png"
+                      alt="Filter image"
+                    />
+                  </div>
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+              </ul>
+            </li>
+
+            <!-- Filter Image-wrap-row -->
+            <li class="filter-catalog__item filter">
+              <h3 class="filter__attr">Заглавие</h3>
+
+              <ul class="image-card-set image-card-set--wrap-row">
+                <li class="image-card-set__item image-card image-card--vertical">
+                  <div class="image-card__thumb image-card__thumb--meta-column">
+                    <img
+                      class="image-card__source"
+                      src="./images/filter/image_3.png"
+                      alt="Filter image"
+                    />
+                  </div>
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="image-card-set__item image-card image-card--vertical">
+                  <div class="image-card__thumb image-card__thumb--meta-column">
+                    <img
+                      class="image-card__source"
+                      src="./images/filter/image_3.png"
+                      alt="Filter image"
+                    />
+                  </div>
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="image-card-set__item image-card image-card--vertical">
+                  <div class="image-card__thumb image-card__thumb--meta-column">
+                    <img
+                      class="image-card__source"
+                      src="./images/filter/image_3.png"
+                      alt="Filter image"
+                    />
+                  </div>
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="image-card-set__item image-card image-card--vertical">
+                  <div class="image-card__thumb image-card__thumb--meta-column">
+                    <img
+                      class="image-card__source"
+                      src="./images/filter/image_3.png"
+                      alt="Filter image"
+                    />
+                  </div>
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="image-card-set__item image-card image-card--vertical">
+                  <div class="image-card__thumb image-card__thumb--meta-column">
+                    <img
+                      class="image-card__source"
+                      src="./images/filter/image_3.png"
+                      alt="Filter image"
+                    />
+                  </div>
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="image-card-set__item image-card image-card--vertical">
+                  <div class="image-card__thumb image-card__thumb--meta-column">
+                    <img
+                      class="image-card__source"
+                      src="./images/filter/image_3.png"
+                      alt="Filter image"
+                    />
+                  </div>
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+              </ul>
+            </li>
+
+            <!-- Filter 2 column values -->
+            <li class="filter-catalog__item filter">
+              <h3 class="filter__attr">Заглавие</h3>
+              <ul class="image-card-set image-card-set--row">
+                <li class="image-card-set__item image-card">
+                  <div class="image-card__thumb image-card__thumb--short">
+                    <img
+                      class="image-card__source"
+                      src="./images/filter/image_1.png"
+                      alt="Filter image"
+                    />
+                  </div>
+                </li>
+                <li class="image-card-set__item image-card">
+                  <div class="image-card__thumb">
+                    <img
+                      class="image-card__source"
+                      src="./images/filter/image_1.png"
+                      alt="Filter image"
+                    />
+                  </div>
+                </li>
+                <li class="image-card-set__item image-card">
+                  <div class="image-card__thumb">
+                    <img
+                      class="image-card__source"
+                      src="./images/filter/image_1.png"
+                      alt="Filter image"
+                    />
+                  </div>
+                </li>
+                <li class="image-card-set__item image-card">
+                  <div class="image-card__thumb">
+                    <img
+                      class="image-card__source"
+                      src="./images/filter/image_1.png"
+                      alt="Filter image"
+                    />
+                  </div>
+                </li>
+              </ul>
+              <ul class="value-list">
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+
+                <li class="value-list__item">
+                  <label class="button filter__value"
+                    >Вариант
+                    <input
+                      class="filter__radio visually-hidden"
+                      type="radio"
+                      name="value-list-1"
+                      value="Вариант"
+                    />
+                  </label>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <h1 hidden class="main-content__title">Имя раздела</h1>
+
+        <!-- Information bar -->
+        <div class="information-bar">
+          <!-- Breadcrumbs -->
+          <div class="breadcrumbs breadcrumbs--margin-bottom">
+            <a class="link breadcrumbs__link" href="">Главная</a>
+            <svg class="icon breadcrumbs__icon" width="6" height="4">
+              <use href="./images/icons.svg#right-arrow"></use>
+            </svg>
+            <a class="link breadcrumbs__link breadcrumbs__link--current" href="">Метизы</a>
+          </div>
+          <p class="product-quantity">244 254 товара</p>
+        </div>
+
+        <!-- Category-simple section -->
+        <ul class="category-list category-simple__category-list">
+          <li class="category-list__item">
+            <section class="category-simple">
+              <h2 class="category-simple__title">Метизы</h2>
+              <ul class="category-simple__list">
+                <li class="category-simple__item">
+                  <a class="link product-card product-card--hor" href="">
+                    <div class="product-card__thumb">
+                      <img
+                        class="product-card__image"
+                        src="./images/products/product-image.jpg"
+                        alt="Болты и винты"
+                      />
+                    </div>
+                    <h4 class="product-card__title">Болты и винты</h4>
+                  </a>
+                </li>
+
+                <li class="category-simple__item">
+                  <a class="link product-card product-card--hor" href="">
+                    <div class="product-card__thumb">
+                      <img
+                        class="product-card__image"
+                        src="./images/products/product-image.jpg"
+                        alt="Болты и винты"
+                      />
+                    </div>
+                    <h4 class="product-card__title">Болты и винты</h4>
+                  </a>
+                </li>
+
+                <li class="category-simple__item">
+                  <a class="link product-card product-card--hor" href="">
+                    <div class="product-card__thumb">
+                      <img
+                        class="product-card__image"
+                        src="./images/products/product-image.jpg"
+                        alt="Болты и винты"
+                      />
+                    </div>
+                    <h4 class="product-card__title">Болты и винты</h4>
+                  </a>
+                </li>
+
+                <li class="category-simple__item">
+                  <a class="link product-card product-card--hor" href="">
+                    <div class="product-card__thumb">
+                      <img
+                        class="product-card__image"
+                        src="./images/products/product-image.jpg"
+                        alt="Болты и винты"
+                      />
+                    </div>
+                    <h4 class="product-card__title">Болты и винты</h4>
+                  </a>
+                </li>
+
+                <li class="category-simple__item">
+                  <a class="link product-card product-card--hor" href="">
+                    <div class="product-card__thumb">
+                      <img
+                        class="product-card__image"
+                        src="./images/products/product-image.jpg"
+                        alt="Болты и винты"
+                      />
+                    </div>
+                    <h4 class="product-card__title">Болты и винты</h4>
+                  </a>
+                </li>
+
+                <li class="category-simple__item">
+                  <a class="link product-card product-card--hor" href="">
+                    <div class="product-card__thumb">
+                      <img
+                        class="product-card__image"
+                        src="./images/products/product-image.jpg"
+                        alt="Болты и винты"
+                      />
+                    </div>
+                    <h4 class="product-card__title">Болты и винты</h4>
+                  </a>
+                </li>
+              </ul>
+            </section>
+          </li>
+
+          <li class="category-list__item">
+            <section class="category-simple">
+              <h2 class="category-simple__title">Метизы</h2>
+              <ul class="category-simple__list">
+                <li class="category-simple__item">
+                  <a class="link product-card product-card--hor" href="">
+                    <div class="product-card__thumb">
+                      <img
+                        class="product-card__image"
+                        src="./images/products/product-image.jpg"
+                        alt="Болты и винты"
+                      />
+                    </div>
+                    <h4 class="product-card__title">Болты и винты</h4>
+                  </a>
+                </li>
+
+                <li class="category-simple__item">
+                  <a class="link product-card product-card--hor" href="">
+                    <div class="product-card__thumb">
+                      <img
+                        class="product-card__image"
+                        src="./images/products/product-image.jpg"
+                        alt="Болты и винты"
+                      />
+                    </div>
+                    <h4 class="product-card__title">Болты и винты</h4>
+                  </a>
+                </li>
+
+                <li class="category-simple__item">
+                  <a class="link product-card product-card--hor" href="">
+                    <div class="product-card__thumb">
+                      <img
+                        class="product-card__image"
+                        src="./images/products/product-image.jpg"
+                        alt="Болты и винты"
+                      />
+                    </div>
+                    <h4 class="product-card__title">Болты и винты</h4>
+                  </a>
+                </li>
+
+                <li class="category-simple__item">
+                  <a class="link product-card product-card--hor" href="">
+                    <div class="product-card__thumb">
+                      <img
+                        class="product-card__image"
+                        src="./images/products/product-image.jpg"
+                        alt="Болты и винты"
+                      />
+                    </div>
+                    <h4 class="product-card__title">Болты и винты</h4>
+                  </a>
+                </li>
+
+                <li class="category-simple__item">
+                  <a class="link product-card product-card--hor" href="">
+                    <div class="product-card__thumb">
+                      <img
+                        class="product-card__image"
+                        src="./images/products/product-image.jpg"
+                        alt="Болты и винты"
+                      />
+                    </div>
+                    <h4 class="product-card__title">Болты и винты</h4>
+                  </a>
+                </li>
+
+                <li class="category-simple__item">
+                  <a class="link product-card product-card--hor" href="">
+                    <div class="product-card__thumb">
+                      <img
+                        class="product-card__image"
+                        src="./images/products/product-image.jpg"
+                        alt="Болты и винты"
+                      />
+                    </div>
+                    <h4 class="product-card__title">Болты и винты</h4>
+                  </a>
+                </li>
+              </ul>
+            </section>
+          </li>
+
+          <li class="category-list__item">
+            <section class="category-simple">
+              <h2 class="category-simple__title">Метизы</h2>
+              <ul class="category-simple__list">
+                <li class="category-simple__item">
+                  <a class="link product-card product-card--hor" href="">
+                    <div class="product-card__thumb">
+                      <img
+                        class="product-card__image"
+                        src="./images/products/product-image.jpg"
+                        alt="Болты и винты"
+                      />
+                    </div>
+                    <h4 class="product-card__title">Болты и винты</h4>
+                  </a>
+                </li>
+
+                <li class="category-simple__item">
+                  <a class="link product-card product-card--hor" href="">
+                    <div class="product-card__thumb">
+                      <img
+                        class="product-card__image"
+                        src="./images/products/product-image.jpg"
+                        alt="Болты и винты"
+                      />
+                    </div>
+                    <h4 class="product-card__title">Болты и винты</h4>
+                  </a>
+                </li>
+
+                <li class="category-simple__item">
+                  <a class="link product-card product-card--hor" href="">
+                    <div class="product-card__thumb">
+                      <img
+                        class="product-card__image"
+                        src="./images/products/product-image.jpg"
+                        alt="Болты и винты"
+                      />
+                    </div>
+                    <h4 class="product-card__title">Болты и винты</h4>
+                  </a>
+                </li>
+
+                <li class="category-simple__item">
+                  <a class="link product-card product-card--hor" href="">
+                    <div class="product-card__thumb">
+                      <img
+                        class="product-card__image"
+                        src="./images/products/product-image.jpg"
+                        alt="Болты и винты"
+                      />
+                    </div>
+                    <h4 class="product-card__title">Болты и винты</h4>
+                  </a>
+                </li>
+
+                <li class="category-simple__item">
+                  <a class="link product-card product-card--hor" href="">
+                    <div class="product-card__thumb">
+                      <img
+                        class="product-card__image"
+                        src="./images/products/product-image.jpg"
+                        alt="Болты и винты"
+                      />
+                    </div>
+                    <h4 class="product-card__title">Болты и винты</h4>
+                  </a>
+                </li>
+
+                <li class="category-simple__item">
+                  <a class="link product-card product-card--hor" href="">
+                    <div class="product-card__thumb">
+                      <img
+                        class="product-card__image"
+                        src="./images/products/product-image.jpg"
+                        alt="Болты и винты"
+                      />
+                    </div>
+                    <h4 class="product-card__title">Болты и винты</h4>
+                  </a>
+                </li>
+              </ul>
+            </section>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <footer class="page-footer">
+      <nav class="page-footer-nav">
+        <ul class="page-footer-nav__list">
+          <li class="footer-nav__item">
+            <a class="link footer-nav__link" href="">Контакты</a>
+          </li>
+
+          <li class="footer-nav__item">
+            <a class="link footer-nav__link" href="">Заказ</a>
+          </li>
+
+          <li class="footer-nav__item">
+            <a class="link footer-nav__link" href="">Партнёрам</a>
+          </li>
+
+          <li class="footer-nav__item">
+            <a class="link footer-nav__link" href="">Статьи</a>
+          </li>
+        </ul>
+      </nav>
+      <p class="page-footer__agreement">
+        Находясь на этом сайте вы соглашаетесь с Политикой конфиденциальности или Условиями
+        использования
+      </p>
+    </footer>
+  </body>
+</html>
